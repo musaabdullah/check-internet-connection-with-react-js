@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="app">
-        <div className={` ${visiable ? "wrapper__show": "wrapper__hide"} wrapper`}>
+        <div className={` ${connection ? "wrapper__hide": "wrapper__show"} wrapper`}>
          <div className="wrapper__content">
              <i className={`${connection ? "content__icon--online":"content__icon--offline"} fa fa-wifi`}></i>
              <div className="wrapper__detail">
